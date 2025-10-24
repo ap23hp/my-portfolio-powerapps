@@ -3,6 +3,9 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  .btn-line {
+    color: white;
+  }
 }
 
 /* Desktops & Laptops */
@@ -10,10 +13,16 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+  .btn-line {
+    color: white;
+  }
 }
 
 /* Tablets & Small Laptops */
 @media (min-width: 768px) and (max-width: 991px) {
+  .btn-line {
+    color: white;
+  }
   main {
     align-items: center;
     text-align: center;
@@ -70,6 +79,9 @@
 
 /* Smartphones */
 @media (max-width: 767px) {
+  .btn-line {
+    color: white;
+  }
   main {
     padding: 2rem;
 
