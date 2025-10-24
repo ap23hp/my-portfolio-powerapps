@@ -1,4 +1,4 @@
-//Menu Button
+// Menu Button
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -6,13 +6,16 @@
   top: 35px;
   cursor: pointer;
   @include easeOut;
+
   .btn-line {
     width: 28px;
     height: 3px;
-    margin: 0 0 5px 0; //only bottom
-    background: #fff;
+    margin: 0 0 5px 0;
+    background-color: $text-color;
     @include easeOut;
   }
+
+  // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
 
@@ -72,6 +75,7 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
   // Branding Side
   &-branding {
     background: $primary-color;
@@ -84,17 +88,15 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
       background: url("../img/apraportrait.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      /* ensures the image fills the screen */
-      background-position: 45% top; /* centers the image both horizontally & vertically */
       border-radius: 50%;
-      border: solid 4px $secondary-color;
+      border: solid 3px $secondary-color;
+      background-size: cover;
     }
   }
+
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;
@@ -115,8 +117,8 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 400;
-    color: $text-color;
+    font-weight: 300;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
