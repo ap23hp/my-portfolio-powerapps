@@ -1,10 +1,18 @@
 // $primary-color: #444;
 // $secondary-color: #eece1a;
-$primary-color: #2b2d42; // Deep Indigo
-$secondary-color: #f4c542; // Gold Accent
-$accent-color: #48c6ef; // Turquoise (optional)
-$background-color: #1f1f1f; // Charcoal dark mode
-$text-color: #f5f5f5; // Warm white
+// $primary-color: #2b2d42; // Deep Indigo
+// $secondary-color: #f4c542; // Gold Accent
+// $accent-color: #48c6ef; // Turquoise (optional)
+// $background-color: #1f1f1f; // Charcoal dark mode
+// $text-color: #f5f5f5; // Warm white
+
+$primary-color: #2e0a2e; // Very dark charcoal – base background
+$secondary-color: #1abc9c; // Vibrant Coral-Red – buttons, accents
+$accent-color: #ffd166; // Warm Yellow – highlights, hover effects
+$background-color: #121212; // Deep blackish background – main sections
+$text-color: #f5f5f5; // Warm White – text remains the same
+$highlight-color: #06d6a0; // Turquoise/Green – optional pop for links/icons
+
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;

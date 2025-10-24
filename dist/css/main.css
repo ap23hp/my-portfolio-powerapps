@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: rgb(32.9403669725, 34.4724770642, 50.5596330275);
+  background: rgb(25.0535714286, 5.4464285714, 25.0535714286);
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #2b2d42;
+  background: #2e0a2e;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -70,7 +70,7 @@
   height: 300px;
   background: url("../img/apraportrait.jpg");
   border-radius: 50%;
-  border: solid 3px #f4c542;
+  border: solid 5px #1abc9c;
   background-size: cover;
 }
 .menu .nav-item {
@@ -81,7 +81,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #f4c542;
+  color: #1abc9c;
 }
 .menu .nav-link {
   display: inline-block;
@@ -90,12 +90,12 @@
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
-  color: set-text-color(#2b2d42);
+  color: set-text-color(#2e0a2e);
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #f4c542;
+  color: #1abc9c;
 }
 
 .nav-item:nth-child(1) {
@@ -131,10 +131,10 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(43, 45, 66, 0.9);
+  background: rgba(46, 10, 46, 0.9);
 }
 body {
-  background: #2b2d42;
+  background: #2e0a2e;
   color: set-text-color(#f5f5f5);
   height: 100%;
   margin: 0;
@@ -160,7 +160,7 @@ h3.sm-heading {
   font-weight: 500;
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(47.023853211, 49.2110091743, 72.176146789, 0.5);
+  background: rgba(54.3785714286, 11.8214285714, 54.3785714286, 0.5);
   color: #f5f5f5;
 }
 
@@ -176,7 +176,7 @@ header {
 }
 
 .text-secondary {
-  color: #f4c542;
+  color: #1abc9c;
 }
 
 main {
@@ -191,7 +191,7 @@ main .icons a {
   transition: all 0.5s ease-out;
 }
 main .icons a:hover {
-  color: #f4c542;
+  color: #1abc9c;
 }
 main#home {
   overflow: hidden;
@@ -211,7 +211,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #f4c542 3px solid;
+  border: #1abc9c 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -227,9 +227,9 @@ main#home h1 {
   grid-area: job3;
 }
 .about-info .job {
-  background: rgb(53.0596330275, 55.5275229358, 81.4403669725);
+  background: rgb(66.9464285714, 14.5535714286, 66.9464285714);
   padding: 0.5rem;
-  border-bottom: #f4c542 5px solid;
+  border-bottom: #1abc9c 5px solid;
 }
 
 .projects {
@@ -243,7 +243,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #f4c542;
+  border-color: #1abc9c;
   transition: all 0.5s ease-out;
 }
 
@@ -264,11 +264,11 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #f4c542;
-  color: set-text-color(#f4c542);
+  background: #1abc9c;
+  color: set-text-color(#1abc9c);
 }
 .boxes div:hover span {
-  color: set-text-color(#f4c542);
+  color: set-text-color(#1abc9c);
 }
 
 .btn, .btn-light, .btn-dark {
@@ -278,8 +278,8 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #f4c542;
-  color: set-text-color(#f4c542);
+  background: #1abc9c;
+  color: set-text-color(#1abc9c);
 }
 
 .btn-dark {
@@ -288,15 +288,15 @@ main#home h1 {
 }
 
 .btn-light {
-  background: rgb(166.5963302752, 169.2752293578, 197.4036697248);
+  background: rgb(219.4642857143, 91.5357142857, 219.4642857143);
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: rgb(22.880733945, 23.9449541284, 35.119266055);
-  color: set-text-color(#2b2d42);
+  background: rgb(4.1071428571, 0.8928571429, 4.1071428571);
+  color: set-text-color(#2e0a2e);
   height: 60px;
 }
 
